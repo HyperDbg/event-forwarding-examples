@@ -18,7 +18,7 @@ namespace Namedpipe
             while (true)
             {
                 var line = reader.ReadLine();
-                Console.Write(line);
+                Console.WriteLine(line);
             }
 
         }

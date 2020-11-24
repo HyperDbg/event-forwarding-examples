@@ -42,7 +42,7 @@ class MyTcpListener
             //
             while (true)
             {
-                Console.Write("Waiting for a connection...");
+                Console.WriteLine("Waiting for a connection...");
 
                 //
                 // Perform a blocking call to accept requests.
@@ -69,7 +69,7 @@ class MyTcpListener
                     // Translate data bytes to a ASCII string.
                     //
                     data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
-                    Console.WriteLine("{0}", data);
+                    Console.Write("{0}", data);
 
                 }
 
