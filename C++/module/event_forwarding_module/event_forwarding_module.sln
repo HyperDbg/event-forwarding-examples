@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event_forwarding_module", "event_forwarding_module\event_forwarding_module.vcxproj", "{12B6E4F9-756D-4941-A956-9C05DD9542D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B6E4F9-756D-4941-A956-9C05DD9542D5}.Debug|x64.ActiveCfg = Debug|x64
+		{12B6E4F9-756D-4941-A956-9C05DD9542D5}.Debug|x64.Build.0 = Debug|x64
+		{12B6E4F9-756D-4941-A956-9C05DD9542D5}.Release|x64.ActiveCfg = Release|x64
+		{12B6E4F9-756D-4941-A956-9C05DD9542D5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7261C73-694C-460D-A43A-FBE47B772977}
+	EndGlobalSection
+EndGlobal
